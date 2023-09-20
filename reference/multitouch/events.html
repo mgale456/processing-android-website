@@ -68,11 +68,11 @@
 }&nbsp;&nbsp;&nbsp;&nbsp;
 
 <span style="color: #33997E;">void</span> touchStarted() {
-&nbsp;&nbsp;<span style="color: #006699;">println</span>(<span style="color: #7D4793;">&quot;touch started&quot;</span>);
+&nbsp;&nbsp;<span style="color: #006699;">println</span>(<span style="color: #7D4793;">&quot;touch started at: &quot;</span>, touches[touchPointerId].x, touches[touchPointerId].y);
 }
 
 <span style="color: #33997E;">void</span> touchMoved() {
-&nbsp;&nbsp;<span style="color: #006699;">println</span>(<span style="color: #7D4793;">&quot;touch moved&quot;</span>); 
+&nbsp;&nbsp;<span style="color: #006699;">println</span>(<span style="color: #7D4793;">&quot;touch moved at: &quot;</span>, touches[touchPointerId].x, touches[touchPointerId].y); 
 }
 
 <span style="color: #33997E;">void</span> touchEnded() {
